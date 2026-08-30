@@ -5,25 +5,17 @@ package.name = gamebooster
 package.domain = com.tamim
 
 source.dir = .
-source.include_exts = py,png,jpg,jpeg,kv,json
-
+source.include_exts = py,png,jpg,kv
 version = 1.0
 
-requirements = python3==3.11.9,kivy==2.3.0,pyjnius==1.6.1
+requirements = python3,kivy,pyjnius
 
 orientation = portrait
 fullscreen = 1
 
 android.api = 35
 android.minapi = 23
-android.ndk = 28c
-
-android.archs = arm64-v8a
-
-android.permissions = INTERNET
-
-# Don't include unnecessary files
-exclude_exts = pyc,pyo,log
+android.ndk = 27c
 
 [buildozer]
 
